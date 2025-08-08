@@ -14,17 +14,3 @@ bashgit clone https://github.com/tu-usuario/ml-auto-tracker.git
 cd ml-auto-tracker
 npm install
 npm start
-Estructura del Proyecto
-.
-├── src/
-│   ├── main/
-│   │   ├── index.js        # Proceso principal Electron
-│   │   ├── database.js     # SQLite local
-│   │   ├── scraper.js      # Web scraping con Puppeteer
-│   │   └── scheduler.js    # Tareas programadas
-│   └── renderer/
-│       ├── index.html
-│       ├── App.jsx         # Interfaz React
-│       └── styles.css
-├── package.json
-└── README.md
